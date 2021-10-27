@@ -113,3 +113,9 @@ body header {
     text-decoration: none;
     border-radius: 50px;
 }
+
+#discDisplay{
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
