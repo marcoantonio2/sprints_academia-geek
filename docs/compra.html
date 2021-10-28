@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="subimgcont">
+            <img src="./images/logo.png" alt="logo" class="logo">
+
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="http://www.milliondollarhomepage.com">Acerca de</a></li>
+                    <li><a href="http://www.milliondollarhomepage.com">Contacto</a></li>
+                    <li><a href="./compra.html">Compra</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <form class="formulario" id="form">
+        <div class="subform1">
+            <div class="pccomp">
+                <h3>
+                    Cantidad de computadores comprados:
+                </h3>
+            </div>
+            <div class="pccomp">
+                <input type="number" name="pcnumber" id="pcnumber">
+            </div>
+            <div>
+                <button id="calc" type="submit">Calcular</button>
+            </div>
+        </div>
+        <div class="subform1">
+            <h3>
+                <div>
+                    Orden de compra
+                </div>
+                <div>
+                    <img src="./images/logo.png" alt="logo">
+                </div>
+                <div>
+                    Valor de compra:
+                    <input type="text" id="pcCompra" readonly>
+                </div>
+                <div>
+                    Valor de Descuento:
+                    <input type="text" id="pcDesc" readonly>
+                </div>
+                <div>
+                    Total:
+                    <input type="text" id="pcTotal" readonly>
+                </div>
+                <div id="discDisplay">
+                    
+                </div>
+            </h3>
+        </div>
+    </form>
+    <footer class="subform1">
+        hecho por <a href="https://github.com/marcoantonio2">Marco Antonio Pineda pulgarin</a>. <br>
+        <a href="https://github.com/marcoantonio2/sprints_academia-geek/tree/main/sprint_1">En este repositorio</a>.
+    </footer>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
